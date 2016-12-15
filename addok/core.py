@@ -342,7 +342,7 @@ class BaseHelper(object):
 
 class Search(BaseHelper):
 
-    SMALL_BUCKET_LIMIT = 10
+    SMALL_BUCKET_LIMIT = 20
 
     def __init__(self, match_all=False, fuzzy=1, limit=10, autocomplete=True,
                  verbose=False):
